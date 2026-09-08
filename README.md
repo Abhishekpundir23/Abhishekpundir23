@@ -1,75 +1,128 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-  <img src="assets/hero-dark.svg" alt="Abhishek Pundir — AI systems and developer tools. An orbital engineering illustration." width="100%" />
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg" />
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
+  <img src="assets/hero.svg" alt="Abhishek Pundir — Software Engineer, AI Systems. An animated illustration of an agent workflow: tools, traces, structural differences, and verification." width="100%" />
 </picture>
 
-<div align="center">
-  <h3>Building useful software. Making AI behavior understandable.</h3>
-  <p>I’m Abhishek, a software engineer working on <b>AI agent evaluation</b>,<br />
-  <b>developer infrastructure</b>, and products people can use.</p>
-  <p>
-    <a href="#selected-work">Explore my work</a> &nbsp; / &nbsp;
-    <a href="https://www.linkedin.com/in/abhishek-pundir-920740317/">LinkedIn</a> &nbsp; / &nbsp;
-    <a href="https://github.com/Abhishekpundir23?tab=repositories">All repositories</a>
-  </p>
-</div>
+<p align="center">
+  <b>AI software engineering · Coding-agent evaluation · Developer tooling</b>
+</p>
+<p align="center">
+  <a href="#my-stack">Skills &amp; stack</a> &nbsp; / &nbsp;
+  <a href="#how-i-engineer">Engineering approach</a> &nbsp; / &nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/abhishek-pundir-920740317/">Connect ↗</a>
+</p>
 
-<br />
+I’m **Abhishek Pundir**, a software engineer with a foundation in **mathematics, statistics, and computer science**. I work where AI-generated behavior meets real software: evaluating coding agents, investigating failures, building developer tools, and creating web and mobile products.
+
+My work spans **code review, automated verification, agent integrations, reproducible environments, and full-stack development**. I care about the details that make a system dependable: observable behavior, clear interfaces, edge cases, and changes another engineer can understand.
+
+In evaluation work, I design and review **coding benchmarks**, validate **tasks, tests, and verifiers**, analyse **agent trajectories**, and investigate **failure attribution**. This includes **adversarial QA** and reviewing model-generated patches.
+
+## What I work on
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/capabilities-mobile.svg" />
+  <img src="assets/capabilities.svg" alt="Three engineering capabilities: AI evaluation — trace behavior, reproduce failures, test changes; developer tooling — transform code, automate checks, make changes reviewable; product engineering — design workflows, build across platforms, handle edge cases." width="100%" />
+</picture>
+
+## My stack
+
+Tools I use across AI systems, software evaluation, infrastructure, and product development.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg" />
+  <img src="assets/stack.svg" alt="Technical stack in five groups. Languages: Python, TypeScript, JavaScript, SQL, C++. AI and agents: OpenAI Agents SDK, Claude Agent SDK, LangGraph, LangChain, MCP, Codex, Claude Code. Web and mobile: React, Next.js, Node.js, React Native, Expo, REST APIs. Systems and data: Docker, Linux, Git, GitHub Actions, SQLite, PostgreSQL. Testing and automation: pytest, Playwright, CI/CD, AST codemods, regression testing." width="100%" />
+</picture>
+
+<details>
+<summary><b>Explore the full stack and where I apply it</b></summary>
+
+| Area | Technologies | What I use them for |
+| --- | --- | --- |
+| **Languages** | Python, TypeScript, JavaScript, SQL, C++ | Evaluation tools, automation, application logic, and data handling. |
+| **AI & agent tooling** | OpenAI Agents SDK, Claude Agent SDK, LangGraph, LangChain, MCP, Codex, Claude Code | Agent integrations, tool-call analysis, evaluation workflows, and AI-assisted development. |
+| **Web & mobile** | React, Next.js, Node.js, React Native, Expo, REST APIs | Full-stack products, conversational interfaces, and mobile workflows. |
+| **Systems & data** | Docker, Linux, Git, GitHub Actions, SQLite, PostgreSQL | Reproducible environments, local-first storage, relational data, and delivery pipelines. |
+| **Testing & automation** | pytest, Playwright, CI/CD, AST codemods, regression testing | Executable checks, end-to-end tests, structural code changes, and failure reproduction. |
+
+</details>
+
+## How I engineer
+
+**01 / Make behavior visible**<br />
+Inspect inputs, tool calls, arguments, and outputs. A final score rarely explains the whole failure.
+
+**02 / Turn uncertainty into a reproducible case**<br />
+Isolate the environment, reduce the problem, and identify the state transition or assumption that broke.
+
+**03 / Build checks around the important behavior**<br />
+Test boundaries and failure paths. Make regressions detectable through executable tests and CI.
+
+**04 / Keep changes explainable**<br />
+Prefer explicit interfaces, deterministic transformations where possible, and evidence that makes review easier.
+
+<details>
+<summary><b>Professional background &amp; foundations</b></summary>
+
+My professional experience includes **software engineering, AI evaluation, quality assurance, and data-focused work**.
+
+| Organisation | Experience |
+| --- | --- |
+| **Mercor** | Software engineering; previously AI Generalist Expert on a freelance basis. |
+| **Handshake** | Freelance software engineering and terminal benchmarking. |
+| **Mindrift** | Software engineering and QA: code review, defect reproduction, and robustness checks. |
+| **AfterQuery Experts** | Software engineering expertise, testing, and benchmark validation. |
+
+Additional AI and data experience includes **Outlier, Invisible Technologies, Deccan AI, and micro1**.
+
+**Academic foundation:** M.Sc. Computer Science, Dr. Bhimrao Ambedkar University (2024–2026); B.Sc. Mathematics, Statistics and Computer Science, Central University of Rajasthan (2021–2024). **GATE Computer Science 2026: qualified.**
+
+</details>
 
 ## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>01 &nbsp; / &nbsp; AI EVALUATION</sub>
-      <h3><a href="https://github.com/Abhishekpundir23/tracediff">tracediff ↗</a></h3>
-      <p>Regression testing for AI agents: tool trajectories, argument drift, cost, and repeated-run variance.</p>
-      <p><code>Python</code> <code>CLI</code> <code>GitHub Actions</code></p>
-      <sub>Make changes in agent behavior visible.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <sub>02 &nbsp; / &nbsp; DEVELOPER TOOLS</sub>
-      <h3><a href="https://github.com/Abhishekpundir23/api-migrator">API Migrator ↗</a></h3>
-      <p>A TypeScript SDK migration pilot with deterministic AST transforms and operator-reviewed verification previews.</p>
-      <p><code>TypeScript</code> <code>AST</code> <code>Docker</code></p>
-      <sub>Understand the change before it ships.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>03 &nbsp; / &nbsp; WEB PRODUCTS</sub>
-      <h3><a href="https://github.com/Abhishekpundir23/formo">Formo ↗</a></h3>
-      <p>Self-hosted conversational forms with branching logic, response analytics, and optional AI-assisted generation.</p>
-      <p><code>Next.js</code> <code>React</code> <code>SQLite</code></p>
-      <sub>Turn a form into a conversation.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <sub>04 &nbsp; / &nbsp; MOBILE PRODUCTS</sub>
-      <h3><a href="https://github.com/Abhishekpundir23/pulse-fitness-manager">Pulse Fitness Manager ↗</a></h3>
-      <p>An Android app for memberships, payments, and attendance. On-device storage, PDF invoices, and backup/restore.</p>
-      <p><code>React Native</code> <code>Expo</code> <code>SQLite</code></p>
-      <sub><a href="https://github.com/Abhishekpundir23/pulse-fitness-manager/releases/latest">Explore the Android release ↗</a></sub>
-    </td>
-  </tr>
-</table>
+A few examples of these skills in practice.
 
-<br />
+### [tracediff ↗](https://github.com/Abhishekpundir23/tracediff)
+**Agent behavior → structural comparison → regression evidence**<br />
+A Python CLI and CI integration for comparing tool trajectories, argument drift, pass rates, cost, and repeated-run variance. Includes adapters for LangGraph, OpenAI Agents SDK, and Claude Agent SDK.
 
-## What I bring to the build
+`Python` · `pytest` · `GitHub Actions` · `Agent SDKs`
 
-**AI & evaluation** &nbsp; Agent integrations, tool-call tracing, regression analysis, and reproducible experiments.
+### [API Migrator ↗](https://github.com/Abhishekpundir23/api-migrator)
+**SDK change → AST transformation → verification preview**<br />
+An operator-reviewed TypeScript SDK migration pilot. Deterministic codemods and isolated verification make proposed changes easier to inspect.
 
-**Engineering** &nbsp; Python, TypeScript, SQL, Docker, GitHub Actions, and automated testing.
+`TypeScript` · `Node.js` · `AST codemods` · `Docker` · `SQLite` · `GitHub App integration`
 
-**Products** &nbsp; React, Next.js, Node.js, React Native, Expo, and SQLite.
+### [Formo ↗](https://github.com/Abhishekpundir23/formo)
+**Form definition → branching conversation → response analytics**<br />
+A self-hostable conversational form builder with conditional logic, analytics, and optional AI-assisted form generation.
 
-<br />
+`Next.js` · `React` · `TypeScript` · `SQLite` · `Playwright`
 
-> Make behavior observable. Make failures reproducible. Make changes reviewable.
+### [Pulse Fitness Manager ↗](https://github.com/Abhishekpundir23/pulse-fitness-manager)
+**Gym workflows → local-first Android app**<br />
+Memberships, payments, attendance, PDF invoices, and backup/restore with on-device storage. [Explore the Android release](https://github.com/Abhishekpundir23/pulse-fitness-manager/releases/latest).
 
-I’m interested in better tools for the people building with AI. If that’s your kind of problem too, [let’s connect](https://www.linkedin.com/in/abhishek-pundir-920740317/).
+`React Native` · `Expo` · `TypeScript` · `SQLite` · `EAS Build`
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
-  <img src="assets/footer-dark.svg" alt="" width="100%" />
-</picture>
+---
+
+I’m especially interested in **AI developer infrastructure, coding-agent reliability, software evaluation, and practical products**. If you’re building in that space, [let’s connect](https://www.linkedin.com/in/abhishek-pundir-920740317/).
+
+<details>
+<summary><b>How this profile is built</b></summary>
+
+The illustrations are generated from Python into self-contained SVGs. The layout changes for phones, artwork follows GitHub’s theme, and animation respects reduced-motion preferences. The workflow animation is an illustration of an engineering process.
+
+The text, links, and expandable sections are native GitHub Markdown. Explore the [generators](scripts/) and [design notes](DESIGN.md), or regenerate the artwork with:
+
+```sh
+python3 scripts/build_profile.py
+```
+
+</details>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" role="img" aria-labelledby="title desc">
+<title id="title">Engineering capabilities</title>
+<desc id="desc">AI agent evaluation, developer infrastructure, and product engineering: three connected areas of my work.</desc>
+<rect x="1" y="1" width="1198" height="370" rx="22" fill="#f6f9ff" stroke="#c9d9e8"/>
+<g transform="translate(20 20)">
+<rect width="374" height="332" rx="16" fill="#ffffff" stroke="#c9d9e8"/>
+<text x="22" y="35" fill="#006c9f" font-family="monospace" font-size="20">01 / ENGINEERING</text>
+<path d="M36 104H104L132 76H204L240 118H339" fill="none" stroke="#006c9f" stroke-width="2.5"/>
+<path d="M104 104L140 140H214" fill="none" stroke="#006c9f" stroke-width="2" stroke-dasharray="5 6" opacity=".5"/>
+<circle cx="36" cy="104" r="6" fill="#f6f9ff" stroke="#006c9f" stroke-width="2"/>
+<circle cx="104" cy="104" r="6" fill="#f6f9ff" stroke="#006c9f" stroke-width="2"/>
+<circle cx="204" cy="76" r="6" fill="#f6f9ff" stroke="#006c9f" stroke-width="2"/>
+<circle cx="240" cy="118" r="6" fill="#f6f9ff" stroke="#006c9f" stroke-width="2"/>
+<circle cx="339" cy="118" r="6" fill="#f6f9ff" stroke="#006c9f" stroke-width="2"/>
+<text x="22" y="202" fill="#11213a" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28">AI evaluation</text>
+<text x="22" y="238" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Trace behavior.</text>
+<text x="22" y="267" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Reproduce failures.</text>
+<text x="22" y="296" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Test what changed.</text>
+</g>
+<g transform="translate(413 20)">
+<rect width="374" height="332" rx="16" fill="#ffffff" stroke="#c9d9e8"/>
+<text x="22" y="35" fill="#7545be" font-family="monospace" font-size="20">02 / ENGINEERING</text>
+<path d="M68 88V128M68 110H132M132 82V142M132 90H200M132 132H200" stroke="#7545be" stroke-width="2" fill="none"/>
+<rect x="55" y="70" width="26" height="20" rx="4" fill="#f6f9ff" stroke="#7545be" stroke-width="2"/>
+<rect x="120" y="67" width="26" height="20" rx="4" fill="#f6f9ff" stroke="#7545be" stroke-width="2"/>
+<rect x="120" y="123" width="26" height="20" rx="4" fill="#f6f9ff" stroke="#7545be" stroke-width="2"/>
+<rect x="196" y="77" width="26" height="20" rx="4" fill="#f6f9ff" stroke="#7545be" stroke-width="2"/>
+<rect x="196" y="120" width="26" height="20" rx="4" fill="#f6f9ff" stroke="#7545be" stroke-width="2"/>
+<path d="M266 112L281 127L312 91" stroke="#7545be" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="22" y="202" fill="#11213a" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28">Developer tooling</text>
+<text x="22" y="238" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Transform code.</text>
+<text x="22" y="267" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Automate the checks.</text>
+<text x="22" y="296" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Keep changes reviewable.</text>
+</g>
+<g transform="translate(806 20)">
+<rect width="374" height="332" rx="16" fill="#ffffff" stroke="#c9d9e8"/>
+<text x="22" y="35" fill="#9a6200" font-family="monospace" font-size="20">03 / ENGINEERING</text>
+<rect x="36" y="69" width="248" height="78" rx="7" fill="#f6f9ff" stroke="#9a6200" stroke-width="2"/>
+<path d="M36 86H284" stroke="#9a6200" stroke-width="1"/>
+<path d="M53 102H145M53 115H112M53 128H136" stroke="#9a6200" stroke-width="3" opacity=".6"/>
+<rect x="248" y="83" width="56" height="78" rx="7" fill="#ffffff" stroke="#9a6200" stroke-width="2"/>
+<path d="M267 149H286" stroke="#9a6200" stroke-width="2"/>
+<text x="22" y="202" fill="#11213a" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28">Product engineering</text>
+<text x="22" y="238" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Design the workflow.</text>
+<text x="22" y="267" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Build across platforms.</text>
+<text x="22" y="296" fill="#4d6480" font-family="Arial, Helvetica, sans-serif" font-size="23">Handle the edge cases.</text>
+</g>
+</svg>
