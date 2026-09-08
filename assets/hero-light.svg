@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Abhishek Pundir — AI systems and developer tools</title>
+  <desc id="desc">A minimalist light profile banner. Large typography sits beside a mint orbital wireframe sphere and a subtle engineering grid.</desc>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#c6d9d6" stroke-width="0.7" opacity="0.5"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="690" y1="200" x2="1200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(970 200) rotate(90) scale(230 275)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#007c69" stop-opacity="0.06"/><stop offset="1" stop-color="#007c69" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="749" y1="298" x2="1192" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#007c69" stop-opacity="0.25"/><stop offset="0.5" stop-color="#007c69"/><stop offset="1" stop-color="#007c69" stop-opacity="0.4"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="400" fill="url(#gridFade)"/></mask>
+    <clipPath id="bounds"><rect x="0.5" y="0.5" width="1199" height="399" rx="18"/></clipPath>
+    <clipPath id="sphere"><circle cx="967" cy="200" r="142"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="400" fill="#f4f7f7"/>
+    <rect width="1200" height="400" fill="url(#grid)" mask="url(#gridMask)"/>
+    <rect x="690" width="510" height="400" fill="url(#aura)"/>
+    <!-- A quiet typographic hierarchy remains readable at mobile width. -->
+    <path d="M65 65H89" stroke="#007c69" stroke-width="2"/>
+    <text x="103" y="70" fill="#526c70" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">AI SYSTEMS / DEVELOPER TOOLS</text>
+    <g fill="#112128" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="700" letter-spacing="-5">
+      <text x="60" y="194">Abhishek</text>
+      <text x="60" y="296">Pundir<tspan fill="#007c69">.</tspan></text>
+    </g>
+    <path d="M65 341H155" stroke="#c6d9d6" stroke-width="1"/>
+    <circle cx="171" cy="341" r="3" fill="#007c69"/>
+    <!-- Static, self-contained line work renders reliably on GitHub. -->
+    <g transform="rotate(-19 967 200)">
+      <circle cx="967" cy="200" r="142" stroke="#aac7c1" stroke-width="1"/>
+      <g clip-path="url(#sphere)" stroke="#aac7c1" stroke-width="0.85" opacity="0.85">
+        <ellipse cx="967" cy="200" rx="110" ry="142"/>
+        <ellipse cx="967" cy="200" rx="58" ry="142"/>
+        <path d="M967 58V342"/>
+        <ellipse cx="967" cy="200" rx="142" ry="54"/>
+        <ellipse cx="967" cy="134" rx="142" ry="42"/>
+        <ellipse cx="967" cy="266" rx="142" ry="42"/>
+        <path d="M825 200H1109"/>
+      </g>
+      <ellipse cx="967" cy="200" rx="236" ry="73" stroke="url(#orbit)" stroke-width="1.3"/>
+      <circle cx="748.5" cy="172.5" r="5" fill="#007c69"/>
+      <circle cx="748.5" cy="172.5" r="12" stroke="#007c69" stroke-opacity="0.25"/>
+      <circle cx="1160" cy="242" r="3" fill="#007c69"/>
+    </g>
+    <g stroke="#aac7c1" stroke-width="1" opacity="0.7">
+      <path d="M807 62V74M801 68H813M1136 322V334M1130 328H1142"/>
+      <path d="M933 364H1001"/><path d="M955 358V370M967 360V368M979 358V370"/>
+    </g>
+    <circle cx="967" cy="200" r="3" fill="#007c69"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="18" stroke="#c6d9d6"/>
+</svg>

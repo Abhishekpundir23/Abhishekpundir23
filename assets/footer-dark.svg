@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Orbital divider</title>
+  <desc id="desc">A fine horizontal rule converges on a small orbital mark.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="34" x2="1200" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27413f" stop-opacity="0"/><stop offset="0.3" stop-color="#27413f"/><stop offset="0.7" stop-color="#27413f"/><stop offset="1" stop-color="#27413f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 34H563M637 34H1200" stroke="url(#fade)"/>
+  <circle cx="600" cy="34" r="15" stroke="#27413f"/>
+  <ellipse cx="600" cy="34" rx="28" ry="8" transform="rotate(-25 600 34)" stroke="#78f4d5" stroke-width="1"/>
+  <circle cx="600" cy="34" r="2" fill="#78f4d5"/>
+</svg>
